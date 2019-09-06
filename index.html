@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Práctica 2</title>
+</head>
+<body>
+    <div class="names">
+        <h1 id="player1"></h1>
+        <h1 id="player2"></h1>
+    </div>
+    <div class="container-top">
+        <div id="tankRight">
+        </div>
+        <div id="tankLeft">
+        </div>
+    </div>
+    <br />
+    <div id="status">
+        <button type="button" onclick="player1Att()" id="attackRight" value="attRight" class="btn btn-danger">ATTACK</button>
+        <h4 id="health-1"></h4>
+        <button type="button" onclick="player2Att()" id="attackLeft" value="attLeft" class="btn btn-danger">ATTACK</button>
+        <h4 id="health-2"></h4>
+    </div>
+    <div id="message">
+    </div>
+    <script type="text/javascript" src="script.js"></script>   
+</body>
+</html>
